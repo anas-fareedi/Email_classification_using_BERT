@@ -1,9 +1,17 @@
 # Project Title
 
-Short one-line description of what this repository does.
+Email Classification using BERT is a lightweight NLP project that automatically categorizes emails (e.g., spam, promotions, social, updates) using a fine-tuned BERT model.
 
 ## About
-A concise overview of the project and its purpose. Keep this to one or two sentences.
+
+This project fine-tunes BERT for text classification on email datasets. It includes data preprocessing, training scripts, evaluation metrics, and a prediction pipeline. The codebase is modular and easy to extend for custom labels or deployment.
+
+## Tech Stack
+
+- NLP & ML: BERT (HuggingFace Transformers), PyTorch, Scikit-learn
+- Data: Pandas, NumPy
+- Visualization: Matplotlib / Seaborn
+- Deployment (optional): FastAPI or Flask, Docker, Streamlit
 
 ## Quick start
 1. Clone the repo
